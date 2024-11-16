@@ -1,4 +1,5 @@
-nome = input ('Qual é seu nome? ')
-idade = input ('Qual é a sua idade?')
-peso = input ('Qual é seu peso?')
-print(nome, idade, peso)
+import random
+ec = [1, 2, 3] 
+jogada = random.sample(ec, 1)
+
+print("{}".format(jogada))
