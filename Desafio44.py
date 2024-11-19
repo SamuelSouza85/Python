@@ -1,7 +1,14 @@
 p = float(input("Qual é o preço do produto:"))
+
+print('=' * 20)
+
 print("Dependendo da sua forma de pagamento você irá ganhar um desconto ou será cobrado juros. Pagar a vista no dinheiro você ganhará um desconto de 10%, á vista no cartão um desconto de 5%, parcelar do cartão em até 2x o preço será o mesmo, mas se você quiser parcelar em 3x ou mais será cobrado um juros de 20%.")
 
+print('=' * 20)
+
 fp = int(input("Qual será sua forma de pagamento, digite 1 para pagar á vista no dinheiro, 2 para pagar á vista no cartâo, 3 para pagar parcelado no cartão em até 2x ou 4 para pagar parcelado em 3x ou mais no cartão: "))
+
+print('=' * 20)
 
 if fp == 1:
     dd = p - 10/100 * p

@@ -3,6 +3,8 @@ from random import randint
 ec = randint(1, 3)
 ej = int(input("Ei vamos jogar jokenpô com certeza vou ganhar, escolha entre pedra, papel e tesoura, 1 é pedra, 2 é papel e 3 é tesoura:"))
 
+print('=' * 20)
+
 
 if ec == 1:
     print("Eu escolhi pedra")
